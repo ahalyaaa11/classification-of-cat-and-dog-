@@ -1,4 +1,4 @@
-the image classification of the cats and dogs from a collection, using deep learning.
+
 ## 📄 Project Description
 
 This project implements a **Deep Learning-based Image Classification model** using a **Convolutional Neural Network (CNN)** built with **TensorFlow and Keras**. The goal of the model is to automatically classify images as either **cat 🐱 or dog 🐶**.
