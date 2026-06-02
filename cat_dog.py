@@ -8,6 +8,7 @@ Original file is located at
 """
 
 import kagglehub
+#data collection
 
 # Download latest version
 path = kagglehub.dataset_download("tongpython/cat-and-dog")
@@ -123,6 +124,7 @@ plt.plot(hist.history['accuracy'], color='darkgreen', label='accuracy')
 plt.plot(hist.history['val_accuracy'], color='k', label='val_accuracy')
 fig.suptitle('Accuracy', fontsize=20)
 plt.legend(loc="upper left")
+print("showing a image")
 plt.show()
 
 import cv2
